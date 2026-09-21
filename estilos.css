@@ -2,17 +2,45 @@ body {
     margin: 0;
     background-color: lightgray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #222;
 }
 
 h1 {
     color: crimson;
+    font-size: 3em;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+p{
+    line-height: 1.5;
+}
+
+header p{
+    font-size: 1.1rem;
 }
 
 header{
     padding: 40px;
     text-align: center;
+    background-color: #222;
+    color: ghostwhite;
 }
 
 main{
-    padding: 30px
+    padding: 30px;
+    margin: auto;
+}
+
+section{
+    background-color: ghostwhite;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
 }
