@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     margin: 0;
     background-color: lightgray;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #222;
 }
 
@@ -10,37 +12,39 @@ h1 {
     font-size: 3em;
 }
 
-h2{
+h2 {
     font-size: 1.5rem;
 }
 
-p{
+p {
     line-height: 1.5;
 }
 
-header p{
+header p {
     font-size: 1.1rem;
+    font-weight: bold;
 }
 
-header{
+header {
     padding: 40px;
     text-align: center;
     background-color: #222;
     color: ghostwhite;
+    
 }
 
-main{
+main {
     padding: 30px;
     margin: auto;
 }
 
-section{
+section {
     background-color: ghostwhite;
     padding: 20px;
     margin-bottom: 20px;
 }
 
-footer{
+footer {
     padding: 20px;
     text-align: center;
 }
