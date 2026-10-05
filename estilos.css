@@ -44,6 +44,13 @@ section {
     margin-bottom: 20px;
 }
 
+.como {
+    background-color: pink;
+}
+#comoFunciona{
+    color: darkgreen;
+}
+
 footer {
     padding: 20px;
     text-align: center;
