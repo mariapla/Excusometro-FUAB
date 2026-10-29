@@ -137,3 +137,30 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+.expediente header{
+    background-image: url("img/fondo-expediente.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.evidencia {
+    background-color: #cecbcb;
+    padding: 1em;
+    margin: 1.5em 0;
+    /* border-width: 0.15em;
+    border-style: solid;
+    border-color: #171717; */
+    border: 0.15em solid #171717;
+}
+
+.evidencias img {
+    max-width: 100%;
+    display: block;
+}
+
+.evidencia figcaption{
+    margin-top: 0.75em;
+    font-size: 0.9em;
+    font-weight: 700;
+}
