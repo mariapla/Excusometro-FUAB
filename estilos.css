@@ -28,20 +28,20 @@ h1 {
     margin: 10px 0;
 }
 
-nav{
+nav {
     background-color: #d7ff3f;
     text-align: center;
     padding: 16px;
 }
 
-nav a{
+nav a {
     color: #171717;
     font-weight: 700;
     text-decoration: none;
     margin: 0 12px;
 }
 
-nav a:hover{
+nav a:hover {
     color: crimson;
 }
 
@@ -68,23 +68,23 @@ p {
     margin-bottom: 16px;
 }
 
-.excusa{
+.excusa {
     background-color: #f4f4f4;
     padding: 20px;
     margin-bottom: 16px;
 }
 
-.excusa h3{
+.excusa h3 {
     color: #b00020;
     margin-top: 0;
 }
 
-#estado{
+#estado {
     background-color: #171717;
     color: ghostwhite;
 }
 
-#estado h2{
+#estado h2 {
     color: ghostwhite;
 }
 
@@ -138,7 +138,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-.expediente header{
+.expediente header {
     background-image: url("img/fondo-expediente.jpg");
     background-size: cover;
     background-position: center;
@@ -159,8 +159,56 @@ footer a:hover {
     display: block;
 }
 
-.evidencia figcaption{
+.evidencia figcaption {
     margin-top: 0.75em;
     font-size: 0.9em;
     font-weight: 700;
+}
+
+.panel-estado {
+    margin-top: 1.5em;
+    display: flex;
+    gap: 1em;
+    /* justify-content: space-around; */
+}
+
+.dato-estado {
+    background-color: #ffffff;
+    color: #171717;
+    padding: 1em;
+    margin-bottom: 0.75em;
+    border: 0.15em solid #d7ff3f;
+    /* width: 100%; */
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.etiqueta {
+    font-weight: 700;
+    display: block;
+    font-size: 0.85em;
+    margin-bottom: .3em;
+}
+
+.valor {
+    color: crimson;
+    display: inline-block;
+    background-color: #d7ff3f;
+    padding: .3em .6em;
+    border: 0.1em solid #171717;
+}
+
+.nivel-credibilidad {
+    display: inline-block;
+    background-color: crimson;
+    color: #ffffff;
+    padding: .3em .6em;
+    margin-left: .3em;
+}
+
+.grid-evidencias{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
 }
