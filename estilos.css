@@ -212,3 +212,40 @@ footer a:hover {
     grid-template-columns: repeat(2, 1fr);
     gap: 1em;
 }
+
+.cabecera-expediente{
+    position: relative;
+}
+
+.sello-clasificado{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    background-color: crimson;
+    color: ghostwhite;
+    padding: 0.4em 0.7em;
+    border: 0.15em solid ghostwhite;
+    font-weight: 700;
+}
+
+.aviso-sistema{
+    position: fixed;
+    right: 1em;
+    bottom: 1em;
+    background-color: #171717;
+    color: ghostwhite;
+    padding: .6em 1em;
+    border: .1em solid ghostwhite;
+}
+
+.foto-caso{
+    width: 12em;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: .5em;
+    border: .15em solid #171717;
+}
+
+.error{
+    overflow:auto;
+}
