@@ -295,6 +295,9 @@ fieldset.campo label {
     margin-bottom: 0.6em;
 }
 
+input[type="radio"]:checked, input[type="checkbox"]:checked{
+    accent-color: crimson;
+}
 .form-excusa button{
     display: inline-block;
     padding: 0.8em 1.2em;
@@ -304,4 +307,23 @@ fieldset.campo label {
     font: inherit;
     font-weight: bold;
     cursor: pointer;
+}
+
+.form-excusa button:hover{
+    background-color: #d7ff3f;
+    color: #171717;
+}
+
+.mensaje-confirmacion{
+    max-width: 40em;
+    margin: 5em auto;
+    padding: 2em;
+    border: 0.2em solid #171717;
+}
+
+.codigo-confirmacion{
+    display: inline-block;
+    background-color: #d7ff3f;
+    padding: 0.4em 0.7em;
+    font-weight: 700;
 }
