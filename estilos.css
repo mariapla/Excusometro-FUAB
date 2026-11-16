@@ -249,3 +249,59 @@ footer a:hover {
 .error{
     overflow:auto;
 }
+
+.form-excusa{
+    max-width: 45em;
+    margin-top: 2em;
+}
+
+.campo{
+    margin-bottom: 1.5em;
+}
+
+
+.campo > label, fieldset > legend{
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="date"], select, textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.8em;
+    background-color: ghostwhite;
+    color: #171717;
+    border: 0.12em solid #171717;
+    font: inherit;
+}
+
+textarea{
+    resize: vertical;
+}
+
+input:focus, select:focus, textarea:focus{
+    outline: 0.2em solid #d7ff3f;
+    outline-offset: 0.15em;
+}
+
+fieldset.campo{
+    padding: 1em;
+    border: .12em solid #171717;
+}
+
+fieldset.campo label {
+    display: block;
+    margin-bottom: 0.6em;
+}
+
+.form-excusa button{
+    display: inline-block;
+    padding: 0.8em 1.2em;
+    background-color: #171717;
+    color: #d7ff3f;
+    border: 0.12em solid #171717;
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
