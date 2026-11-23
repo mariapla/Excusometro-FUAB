@@ -30,15 +30,20 @@ h1 {
 
 nav {
     background-color: #d7ff3f;
-    text-align: center;
-    padding: 16px;
+    /* text-align: center; */
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+
 }
 
 nav a {
     color: #171717;
     font-weight: 700;
     text-decoration: none;
-    margin: 0 12px;
+    /* margin: 0 12px; */
 }
 
 nav a:hover {
@@ -46,9 +51,10 @@ nav a:hover {
 }
 
 main {
-    max-width: 900px;
+    width: 90%;
+    max-width: 56rem;
     margin: auto;
-    padding: 40px 30px;
+    padding: 2.5em 0;
 }
 
 section {
@@ -159,6 +165,11 @@ footer a:hover {
     display: block;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 .evidencia figcaption {
     margin-top: 0.75em;
     font-size: 0.9em;
@@ -169,6 +180,7 @@ footer a:hover {
     margin-top: 1.5em;
     display: flex;
     gap: 1em;
+    flex-wrap: wrap;
     /* justify-content: space-around; */
 }
 
@@ -326,4 +338,54 @@ input[type="radio"]:checked, input[type="checkbox"]:checked{
     background-color: #d7ff3f;
     padding: 0.4em 0.7em;
     font-weight: 700;
+}
+
+@media (max-width: 48rem){
+    body{
+        padding-bottom: 3em;
+    }
+    .panel-estado {
+        flex-direction: column;
+    }
+
+    .grid-evidencias{
+        grid-template-columns: 1fr;
+    }
+
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1{
+        font-size: 2.5em;
+    }
+
+    header{
+        padding: 2.5em 1.5em;
+    }
+
+    section {
+        padding: 1.5em;
+    }
+
+    .sello-clasificado{
+        position: static;
+        display: inline-block;
+        margin-bottom: 1em;
+    }
+
+    .foto-caso{
+        width: 100%;
+        float: none;
+        margin-right: 0;
+        margin-bottom: 1em;
+    }
+
+    .aviso-sistema{
+        left: 1em;
+        right: 1em;
+        bottom: 1em;
+        text-align: center;
+    }
 }
